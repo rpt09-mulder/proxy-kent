@@ -24,3 +24,8 @@ coverage
 build/
 dist/
 
+#ENV
+.env
+
+
+

@@ -8,8 +8,13 @@
     "node": ">=10.13.0"
   },
   "scripts": {
+    "start-proxy": "server/index.js"
   },
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
   },
   "devDependencies": {
     "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
